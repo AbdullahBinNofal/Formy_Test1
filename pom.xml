@@ -1,0 +1,82 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.example</groupId>
+  <artifactId>Formy_Test</artifactId>
+  <packaging>war</packaging>
+  <version>1.0-SNAPSHOT</version>
+  <properties>
+    <maven.compiler.source>19</maven.compiler.source>
+    <maven.compiler.target>19</maven.compiler.target>
+  </properties>
+  <name>Formy_Test Maven Webapp</name>
+  <url>http://maven.apache.org</url>
+<!--  <dependencies>-->
+<!--    <dependency>-->
+<!--      <groupId>org.seleniumhq.selenium</groupId>-->
+<!--      <artifactId>selenium-server</artifactId>-->
+<!--      <version>3.141.59</version>-->
+<!--    </dependency>-->
+<!--    <dependency>-->
+<!--      <groupId>org.apache.maven.plugins</groupId>-->
+<!--      <artifactId>maven-surefire-plugin</artifactId>-->
+<!--      <version>3.0.0-M4</version>-->
+<!--    </dependency>-->
+<!--    <dependency>-->
+<!--      <groupId>junit</groupId>-->
+<!--      <artifactId>junit</artifactId>-->
+<!--      <version>3.8.1</version>-->
+<!--      <scope>test</scope>-->
+<!--    </dependency>-->
+<!--    <dependency>-->
+<!--      <groupId>org.testing</groupId>-->
+<!--      <artifactId>testing</artifactId>-->
+<!--      <version>7.1.0</version>-->
+<!--      <scope>test</scope>-->
+<!--    </dependency>-->
+<!--  </dependencies>-->
+
+  <dependencies>
+    <dependency>
+      <groupId>org.seleniumhq.selenium</groupId>
+      <artifactId>selenium-server</artifactId>
+      <version>3.141.59</version>
+    </dependency>
+    <dependency>
+      <groupId>org.testng</groupId>
+      <artifactId>testng</artifactId>
+      <version>7.6.1</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.maven.plugins</groupId>
+      <artifactId>maven-surefire-plugin</artifactId>
+      <version>3.0.0-M4</version>
+    </dependency>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.13.2</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.slf4j</groupId>
+      <artifactId>slf4j-api</artifactId>
+      <version>2.0.1</version>
+    </dependency>
+    <dependency>
+      <groupId>org.slf4j</groupId>
+      <artifactId>slf4j-simple</artifactId>
+      <version>2.0.1</version>
+    </dependency>
+
+    <!--            <dependency>-->
+    <!--                <groupId>org.slf4j</groupId>-->
+    <!--                <artifactId>slf4j-log4j12</artifactId>-->
+    <!--                <version>2.0.1</version>-->
+    <!--            </dependency>-->
+  </dependencies>
+  <build>
+    <finalName>Formy_Test</finalName>
+  </build>
+</project>
